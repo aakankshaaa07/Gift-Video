@@ -1,0 +1,136 @@
+@font-face {
+  src: url("/kari/Kari.ttf") format("truetype");
+  font-family: kari;
+}
+
+html, body {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background: #000000;
+  color: #00ff00;
+  font-family: 'Fira Code', monospace;
+}
+
+.typewriter {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+
+.typewriter #line-1 {
+  border-right: 1px #00ff00;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 22ch;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typewriter 3s steps(40) 1s 1 normal both;
+          animation: typewriter 3s steps(40) 1s 1 normal both;
+}
+
+#line-2 {
+  border-right: 1px #00ff00;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 22ch;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typewriter 3s steps(40) 1s 1 normal both;
+          animation: typewriter 3s steps(40) 1s 1 normal both;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+#line-3 {
+  border-right: 1px #00ff00;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 31ch;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typewriter 4s steps(40) 1s 1 normal both;
+          animation: typewriter 4s steps(40) 1s 1 normal both;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+}
+
+#line-4 {
+  border-right: 1px #00ff00;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 25ch;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typewriter 3.5s steps(40) 1s 1 normal both;
+          animation: typewriter 3.5s steps(40) 1s 1 normal both;
+  -webkit-animation-delay: 11s;
+          animation-delay: 11s;
+}
+
+#line-5 {
+  border-right: 1px #00ff00;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 31ch;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typewriter 4s steps(40) 1s 1 normal both;
+          animation: typewriter 4s steps(40) 1s 1 normal both;
+  -webkit-animation-delay: 14.5s;
+          animation-delay: 14.5s;
+}
+
+@-webkit-keyframes typewriter {
+  0% {
+    width: 0;
+    border-right: none;
+  }
+  0.1% {
+    border-right: 1px solid #00ff00;
+  }
+  99.9% {
+    border-right: 1px solid #00ff00;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes typewriter {
+  0% {
+    width: 0;
+    border-right: none;
+  }
+  0.1% {
+    border-right: 1px solid #00ff00;
+  }
+  99.9% {
+    border-right: 1px solid #00ff00;
+  }
+  100% {
+    border: none;
+  }
+}
+
+.gift {
+  position: absolute;
+  top: 62%;
+  left: 10%;
+  padding: 5px;
+  background: #000000;
+  color: #00ff00;
+  font-family: 'Fira Code', monospace;
+  border: 2px solid #00ff00;
+}
+
+.gift:hover {
+  background: #00ff00;
+  color: #000000;
+  border: 2px solid #00ff00;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+/*# sourceMappingURL=styles.css.map */
